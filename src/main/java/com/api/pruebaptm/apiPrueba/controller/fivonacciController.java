@@ -11,7 +11,7 @@ import java.util.Collections;
 import java.util.List;
 
 @RestController
-@RequestMapping("/getfivonacci")
+@RequestMapping("/getfibonacci")
 public class fivonacciController {
 
 	 @GetMapping("/number/{index}")
